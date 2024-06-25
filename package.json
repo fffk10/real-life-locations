@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "biome lint -- apply ./src",
+    "format": "biome format ./src --write",
+    "check": "biome check --apply ./src"
   },
   "dependencies": {
     "@yamada-ui/react": "^1.4.2",
@@ -15,6 +17,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.8.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
