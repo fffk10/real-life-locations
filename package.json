@@ -11,10 +11,14 @@
     "check": "biome check --apply ./src"
   },
   "dependencies": {
+    "@mapbox/mapbox-gl-language": "^1.0.1",
+    "@types/mapbox-gl": "^3.1.0",
     "@yamada-ui/react": "^1.4.2",
+    "mapbox-gl": "^3.4.0",
     "next": "14.2.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-map-gl": "^7.1.7"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.2",
