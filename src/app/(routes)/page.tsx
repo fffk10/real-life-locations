@@ -1,10 +1,11 @@
+import { Box } from '@yamada-ui/react'
 import Mapbox from '../features/map/mapbox'
 
 export default function MapPage() {
 	return (
-		<div>
+		<Box w="full">
 			Map Page
 			<Mapbox />
-		</div>
+		</Box>
 	)
 }
