@@ -41,9 +41,5 @@ export default function Mapbox() {
 		if (!map) initializeMap({ setMap, mapContainer })
 	}, [map])
 
-	return (
-		<>
-			<Box ref={mapContainer} w="full" h="100vh" />
-		</>
-	)
+	return <Box ref={mapContainer} w="full" h="90vh" />
 }
